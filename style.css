@@ -1,0 +1,787 @@
+/* PROJET FIL ROUGE : ILLUSTRATRICES FEMINISTES SUR INSTAGRAM */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: #FCF3ED;
+}
+
+section{
+    width: 100%;
+}
+
+img{
+    display: block;
+}
+
+/* PAGE D'ACCUEIL */
+
+header{
+    width: 100%;
+    height: 283px;
+    background: #B83C5F;
+}
+
+nav{
+    display: flex;
+    padding: 0px 10px;
+
+}
+
+#navbarNavDropdown{
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.dropdown-menu{
+    background-color: black;
+    opacity: 60%;
+}
+
+h1{
+    width: 100%;
+    height: 180px;
+    font-weight: 900;
+    font-size: clamp(24px, 6vw, 72px);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.fond-fem{
+    width: 100%;
+}
+
+
+
+/* ART & FEMINISME */
+
+#art-fem{
+    width: 90%;
+    height: 647px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 105px;
+    margin-right: 117px;
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro h2{
+    font-weight: 900;
+    font-size: clamp(14px, 6vw, 48px);
+    color: #62316D;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.span1{
+    font-weight: 300;
+}
+
+.intro p{
+    width: 601px;
+    height: 407px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    color: black;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+/* EVOLUTION DES VAGUES FEMINISTES */
+
+#vagues-fem{
+    width: 100%;
+    height: 800px;
+    background: rgba(204, 146, 157, 0.5);
+}
+
+#vagues-fem h2{
+    width: 100%;
+    height: 100px;
+    font-weight: 900;
+    font-size: clamp(14px, 6vw, 48px);
+    text-align: center; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    margin-bottom: 53px;
+}
+
+.vagues{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 115px;
+    padding-left: 115px;
+}
+
+.vag img{
+    position: relative;
+}
+
+.vag{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vag h3{
+    width: 342px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #9F7DE0;
+    position: absolute;
+    z-index: 10;
+    padding-top: 5px;
+}
+
+.text1, .text2, .text3{
+    width: 342px;
+    height: 544px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 110px;
+    padding-bottom: 32px;
+    position: absolute;
+}
+
+.t1, .t2, .t3{
+    color: white;
+    opacity: 0;
+}
+
+.text1:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 99.99%, rgba(255, 255, 255, 0) 100%), #E1D3FC;
+    opacity: 0.9;
+}
+.text2:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 99.99%, rgba(255, 255, 255, 0) 100%), #E1D3FC;
+    opacity: 0.9;
+}
+.text3:hover{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 99.99%, rgba(255, 255, 255, 0) 100%), #E1D3FC;
+    opacity: 0.9;
+}
+
+.t1:hover{
+    transition: 0.8s;
+    opacity: 1;
+}
+.t2:hover{
+    transition: 0.8s;
+    opacity: 1;
+}
+.t3:hover{
+    transition: 0.8s;
+    opacity: 1;
+}
+
+
+/* 4EME VAGUE : CYBERFEMINISME */
+
+#cyber-fem{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 113px;
+    padding-left: 115px;
+    padding-right: 115px;
+    gap: 128px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.cyber{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cyber h2{
+    width: 596px;
+    height: 119px;
+    font-weight: 300;
+    font-size: clamp(18px, 6vw, 48px);
+    line-height: 57px;
+    text-align: left;
+    color: #AA455F;
+}
+
+.span2{
+    font-weight: 900;
+}
+
+.cyber p{
+    width: 641px;
+    height: 562px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+/* VIDEO METOO */
+
+#vid-metoo{
+    width: 100%;
+    height: 810px;
+    position: relative;
+}
+video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#vid-metoo img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+/* L'ART MILITANT S'EMPARE D'INSTAGRAM */
+
+#art-ig{
+    width: 100%;
+    height: 750px;
+    background: rgba(227, 142, 102, 0.5);
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    gap: 78px;
+}
+
+.expli{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#art-ig .insta{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+#art-ig h2{
+    width: 695px;
+    height: 139px;
+    font-weight: bold;
+    font-size: clamp(18px, 6vw, 48px);
+    line-height: 57px;
+    text-align: left;
+    color: #9C471E;
+}
+
+.span3{
+    font-weight: 400;
+    letter-spacing: 0.72em;
+}
+
+#art-ig p{
+    width: 696px;
+    height: 497px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: black;
+}
+
+/* ENDO WARRIOR */
+
+#endo{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    background: #AA455F;
+    gap: 120px;
+    align-items: center;
+}
+
+#endo p{
+    width: 694px;
+    height: 300px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 87px;
+    text-align: left;
+    margin-left: 75px;
+    color: white;
+}
+
+.span9{
+    font-weight: 700;
+}
+
+
+
+/* EXEMPLES ILLUSTRATRICES FEMINISTES */
+
+#ex-illu{
+    width: 100%;
+}
+
+#ex-illu h2{
+    width: 100%;
+    height: 119px;
+    font-weight: 400;
+    font-size: clamp(18px, 6vw, 48px);
+    line-height: 57px;
+    text-align: right;
+    padding-right: 168px;
+    margin-top: 80px;
+    color: #F1895D;
+    margin-bottom: 90px;
+}
+
+.span4{
+    font-weight: 900;
+    letter-spacing: 0.71em;
+}
+
+.illu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 55px;
+    margin-bottom: 50px;
+}
+
+.illu-des{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.illu-des h3{
+    width: 456px;
+    height: 77px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: left;
+    letter-spacing: 0.05em;
+}
+
+.illu-des, h3, a{
+    text-decoration: none;
+}
+
+.venus h3{
+    color: #985857;;
+}
+
+.span5, .span6, .span7, .span8{
+    font-weight: 300;
+    letter-spacing: 0.3em;
+}
+
+.laura h3{
+    color: #C6AFFD;
+}
+
+.sara h3{
+    color: #FF500D;
+}
+
+.clem h3{
+    color: #EB5070;
+}
+
+.illu-des p{
+    width: 572px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+    text-align: left;
+}
+
+
+
+/* FOOTER / FIN DE PAGE */
+
+footer{
+    width: 100%;
+    height: 501px;
+    margin-top: 200px;
+}
+
+.elements{
+    background: rgba(235, 187, 164, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img{
+    padding-top: 50px;
+}
+
+.formulaire h2{
+    width: 392px;
+    height: 58px;
+    font-weight: 700;
+    font-size: clamp(14px, 6vw, 36px);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: flex-end;
+    gap: 30px;
+}
+
+#Nom, #Mail, #Message{
+    width: 392px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: rgba(235, 187, 164, 0);
+    font-size: 18px;
+    color: white;
+    padding-left: 6px;
+}
+
+#Message{
+    border: 1px solid white;
+    resize: none;
+    height: 170px;
+    margin-top: 20px;
+    padding-top: 9px;
+    padding-left: 6px;
+}
+
+#Bouton{
+    width: 150px;
+    height: 30px;
+    background: #9F274A;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+
+
+/* --------- MEDIA QUERIES --------- */
+
+@media (max-width: 375px){
+
+/* HEADER*/
+    h1{
+        font-size: 18px;
+        position: absolute;
+        top: 20px;
+        margin-top: 0;
+    }
+
+    header{
+        width: 100%;
+        height: 80px;}
+
+    .logo{
+        visibility: hidden;}
+
+    .menu{
+        visibility: hidden;
+    }
+
+/* Menu Hambuger */
+
+
+    
+/* ART ET FEMINISME */
+    #art-fem{
+        margin: 15px;
+        gap: 20px;
+        height: 200px;
+    }
+
+    .period{
+        width: 132px;
+        height: 200px;
+    }
+
+    .intro{
+        width: 200px;
+        height: 200px;
+    }
+
+    #art-fem h2{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #art-fem p{
+        width: 200px;
+        height: 100px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    /* EVOLUTION DES VAGUES FEMINISTES */
+    #vagues-fem{
+        height: 220px;
+    }
+
+    #vagues-fem h2{
+        height: 30px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .vag img{
+        width: 94px;
+        height: 150px;
+    }
+
+    .vag h3{
+        font-size: 12px;
+    }
+
+    .vagues{
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* 4EME VAGUE : CYBERFEMINISME */
+    #cyber-fem{
+        width: 200px;
+        height: 300px;
+        margin: 10px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    #cyber-fem h2{
+        height: 30px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #cyber-fem p{
+        width: 200px;
+        height: 200px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .cyber{
+        width: 200px;
+    }
+
+    .cyb{
+        width: 145px;
+        height: 230px;
+        margin-top: 20px;
+    }
+
+    /* VIDEO METOO */
+    #vid-metoo{
+        height: 220px;
+    }
+
+    #vid-metoo img{
+        visibility: hidden;
+    }
+
+    /* L'ART MILITANT S'EMPARE D'INSTAGRAM */
+    #art-ig{
+        height: 320px;
+        gap: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #art-ig img{
+        width: 145px;
+        height: 230px;
+        margin-top: 50px;
+    }
+
+    #art-ig .insta{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #art-ig h2{
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #art-ig p{
+        width: 200px;
+        height: 30px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .expli{
+        width: 100px;
+        height: 350px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* ENDO WARRIOR */
+    #endo{
+        height: 100px;
+        align-items: center
+    }
+
+    #endo img{
+        height: 100px;
+    }
+
+    #endo p{
+        width: 200px;
+        height: 100px;
+        font-size: 10px;
+        line-height: 10px;
+        margin-left: 20px;
+    }
+
+    /* EXEMPLES ILLUSTRATRICES FEMINISTES */
+    .ex-illu h2{
+        height: 50px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .illu {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .illu img{
+        width: 158px;
+        height: 200px;
+    }
+
+    .illu-des h3{
+        width: 160px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.05em;}
+
+    .illu-des p{
+        width: 160px;
+        font-size: 8px;
+        line-height: 8px;
+        margin-top: 10px;
+    }
+
+    .illu-des{
+        margin-left: 20px;
+    }
+
+    /* FOOTER / FIN DE PAGE */
+    footer{
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .formulaire h2{
+        width: 150px;
+        height: 20px;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .formulaire{
+        width: 150px;
+    }
+
+    form{
+        gap: 10px;
+    }
+
+    #Nom, #Mail, #Message{
+        width: 150px;
+        font-size: 8px;
+        padding-left: 6px;
+    }
+    
+    #Message{
+        height: 50px;
+        border: 1px solid white;
+        resize: none;
+        height: 100px;
+        margin-top: 10px;
+        padding-top: 9px;
+        padding-left: 6px;
+    }
+    
+    #Bouton{
+        width: 80px;
+        height: 15px;
+        font-size: 8px;
+
+    }
+    }
